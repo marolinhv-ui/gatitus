@@ -1,0 +1,38 @@
+<svg width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Pantalla-Inicio" clip-path="url(#clip0_0_1)">
+<rect width="1280" height="3185" transform="translate(-892 -3030)" fill="#F4F4F4"/>
+<g id="Scroll_banner">
+<g id="Organismo/Footer">
+<rect width="1280" height="289" transform="translate(-892 -134)" fill="#1B9B3C"/>
+<g id="Content_Redes">
+<g id="Logos">
+<g id="instagram icon">
+<path id="c" d="M55.233 0.5H10.433C5.13107 0.5 0.833008 4.79807 0.833008 10.1V54.9C0.833008 60.2019 5.13107 64.5 10.433 64.5H55.233C60.5349 64.5 64.833 60.2019 64.833 54.9V10.1C64.833 4.79807 60.5349 0.5 55.233 0.5Z" fill="black"/>
+<path id="c_2" d="M55.233 0.5H10.433C5.13107 0.5 0.833008 4.79807 0.833008 10.1V54.9C0.833008 60.2019 5.13107 64.5 10.433 64.5H55.233C60.5349 64.5 64.833 60.2019 64.833 54.9V10.1C64.833 4.79807 60.5349 0.5 55.233 0.5Z" fill="url(#paint0_radial_0_1)"/>
+<path id="c_3" d="M55.233 0.5H10.433C5.13107 0.5 0.833008 4.79807 0.833008 10.1V54.9C0.833008 60.2019 5.13107 64.5 10.433 64.5H55.233C60.5349 64.5 64.833 60.2019 64.833 54.9V10.1C64.833 4.79807 60.5349 0.5 55.233 0.5Z" fill="url(#paint1_linear_0_1)"/>
+<g id="Group">
+<path id="Vector" d="M41.958 13.25H23.708C18.1161 13.25 13.583 17.7831 13.583 23.375V41.625C13.583 47.2169 18.1161 51.75 23.708 51.75H41.958C47.5499 51.75 52.083 47.2169 52.083 41.625V23.375C52.083 17.7831 47.5499 13.25 41.958 13.25Z" stroke="white" stroke-width="4.38853"/>
+<path id="Vector_2" d="M32.833 41.4995C37.8036 41.4995 41.833 37.4701 41.833 32.4995C41.833 27.5289 37.8036 23.4995 32.833 23.4995C27.8624 23.4995 23.833 27.5289 23.833 32.4995C23.833 37.4701 27.8624 41.4995 32.833 41.4995Z" stroke="white" stroke-width="4.38853"/>
+<path id="Vector_3" d="M44.208 21.8745C44.6222 21.8745 44.958 21.5387 44.958 21.1245C44.958 20.7103 44.6222 20.3745 44.208 20.3745C43.7938 20.3745 43.458 20.7103 43.458 21.1245C43.458 21.5387 43.7938 21.8745 44.208 21.8745Z" stroke="white" stroke-width="4.38853"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_radial_0_1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(26.433 64.5) scale(64)">
+<stop offset="0.1" stop-color="#FFDD55"/>
+<stop offset="0.5" stop-color="#FF543E"/>
+<stop offset="1" stop-color="#C837AB"/>
+</radialGradient>
+<linearGradient id="paint1_linear_0_1" x1="0.833008" y1="0.5" x2="13.633" y2="64.5" gradientUnits="userSpaceOnUse">
+<stop offset="0.1" stop-color="#3771C8"/>
+<stop offset="0.5" stop-color="#6600FF" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_0_1">
+<rect width="1280" height="3185" fill="white" transform="translate(-892 -3030)"/>
+</clipPath>
+</defs>
+</svg>

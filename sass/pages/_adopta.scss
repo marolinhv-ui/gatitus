@@ -1,0 +1,87 @@
+@import "../main";
+
+@mixin config_list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: $accent400;
+    width: 660px;
+    padding: 30px 71px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8.1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.main_banner_bg_adopta {
+    @include banner("../images/banner_adopta.webp");
+}
+
+.main_card_cat_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main_cards_cats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.main_card_cat {
+    max-width: 310px;
+
+    a {
+        color: black;
+    }
+}
+
+.main_adoption {
+    @include common_contanier();
+
+    &>div {
+        width: 50%;
+    }
+}
+
+.main_adoption_title {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0.5px;
+
+    h2 {
+        color: $accent500;
+        margin-bottom: 10px;
+    }
+}
+
+.main_requirements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 60px;
+}
+
+.main_requirements_img {
+    max-width: 592px;
+    width: 50%;
+    object-fit: contain;
+    border-radius: 12px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.main_requirements_list {
+    @include config_list;
+
+    h2 {
+        font-weight: 400;
+    }
+}
+
+.main_volunteers_list {
+    @include config_list;
+}

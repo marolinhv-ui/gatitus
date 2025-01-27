@@ -1,0 +1,11 @@
+@import "variables";
+
+.offcanvas.offcanvas-end {
+    width: 300px;
+    background-color: $background;
+    padding: 1rem;
+}
+
+.offcanvas-header .btn-close:hover {
+    background-color: $primary;
+}

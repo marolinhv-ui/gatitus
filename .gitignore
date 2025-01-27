@@ -1,0 +1,14 @@
+# Node.js
+node_modules/
+
+# IDEs y sistemas operativos
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Archivos de compilación
+*.lock
+dist/
+build/

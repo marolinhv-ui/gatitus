@@ -1,0 +1,111 @@
+/* 0 - 1050px */
+@media (width <=1050px) {
+    .direction_column {
+        flex-direction: column;
+    }
+
+    .main_reserva {
+        @extend .direction_column;
+        gap: 30px;
+    }
+
+    .main_adoption {
+        gap: 50px;
+    }
+
+    .main_requirements {
+        @extend .direction_column;
+        position: relative;
+    }
+
+    .main_requirements_img {
+        max-width: 500px;
+        width: 95%;
+        position: absolute;
+    }
+
+    .main_volunteers,
+    .main_location {
+        @extend .direction_column;
+        padding-top: 0;
+    }
+
+    .main_programs {
+        @extend .direction_column;
+    }
+}
+
+/* 768px - 1050px */
+@media (768px <=width <=1050px) {
+    .main_cards_cats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .main_requirements_img {
+        top: 80px;
+    }
+
+    .main_requirements_list {
+        margin-top: 330px;
+        padding: 60px 71px;
+    }
+}
+
+/* 0 - 600px */
+@media (width <=600px) {
+    .main_requirements_img {
+        display: none;
+    }
+
+    .main_requirements_list {
+        margin-top: unset;
+    }
+}
+
+/* 0 - 450px */
+@media (width <=450px) {
+    .main_banner div {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .payment_button,
+    .mv_item a {
+        width: 100%;
+    }
+
+    .main_reserva_img {
+        width: 100%;
+        height: unset;
+    }
+
+    .main_form_container {
+        padding: 30px;
+
+        button {
+            width: 100% !important;
+        }
+    }
+
+    .main_volunteers_list,
+    .main_requirements_list {
+        padding: 30px;
+    }
+
+    .btn_volunteer_form {
+        width: 100% !important;
+    }
+
+    .footer_contact {
+        align-items: center;
+    }
+
+
+}
+
+/* 0 - 380px */
+@media (width <=380px) {
+    .payment_item img {
+        max-width: 100%;
+    }
+}

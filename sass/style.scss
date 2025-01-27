@@ -1,0 +1,21 @@
+@use "fonts";
+@use "variables";
+@use "reset";
+@use "header";
+@use "main";
+
+/* PAGES */
+@use "pages/inicio";
+@use "pages/catFeteria";
+@use "pages/adopta";
+@use "pages/contacto";
+@use "pages/voluntariado";
+
+@use "footer";
+@use "sidebar";
+
+/* MEDIAS QUERIES */
+@use "media-queries/desktop";
+@use "media-queries/tablet";
+@use "media-queries/mobile";
+@use "media-queries/others";

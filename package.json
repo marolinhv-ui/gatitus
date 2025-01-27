@@ -1,0 +1,23 @@
+{
+  "name": "fundaciongatitus",
+  "version": "1.0.0",
+  "description": "Proyecto de pagina web creado con HTML, CSS y Bootstrap basado en prototipos de alta fidelidad realizados en Figma.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch sass/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marolin-dsgn/gatitus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marolin-dsgn/gatitus/issues"
+  },
+  "homepage": "https://github.com/Marolin-dsgn/gatitus#readme",
+  "dependencies": {
+    "sass": "^1.83.4"
+  }
+}

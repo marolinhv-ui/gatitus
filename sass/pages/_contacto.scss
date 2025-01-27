@@ -1,0 +1,75 @@
+@import "../main";
+
+.center {
+    text-align: center;
+}
+
+.main_banner_bg_contacto {
+    @include banner("../images/banner_contacto.webp");
+}
+
+.main_location {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    padding: 40px 60px;
+}
+
+.main_location_map {
+    max-width: 469px;
+    border-radius: 20px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.main_location_description h2 {
+    color: $primary;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0.5px;
+}
+
+.main_location_address {
+    font-weight: 500;
+}
+
+.main_location_email {
+    color: $primary;
+}
+
+.main_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+
+}
+
+.main_form_container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    border-radius: 15px;
+    background: $accent50;
+    box-shadow: 0px 4px 8.1px 0px rgba(0, 0, 0, 0.25);
+    padding: 30px 71px;
+    max-width: 659px;
+    width: 100%;
+
+    h2 {
+        @extend .center;
+        font-weight: 400;
+        line-height: 40px;
+        color: rgba(0, 0, 0, 0.50);
+    }
+
+    h3 {
+        @extend .center;
+        font-weight: 300;
+        line-height: 28px;
+    }
+}

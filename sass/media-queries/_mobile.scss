@@ -1,0 +1,199 @@
+/* 0 - 768px */
+@mixin footer_width {
+    min-width: 180px;
+    max-width: 200px;
+}
+
+@media (width <=768px) {
+    .padding_20 {
+        padding: 20px;
+    }
+
+    header {
+        padding: 16px 20px;
+    }
+
+    .header_logo {
+        max-width: 180px;
+    }
+
+    .header_nav_desktop,
+    .header_nav_tablet {
+        display: none;
+    }
+
+    .main_banner {
+        @extend .padding_20;
+        min-height: unset;
+        height: 385px;
+        justify-content: center;
+
+        p {
+            width: 90%;
+            font-size: 22px;
+            line-height: 30px;
+        }
+    }
+
+    .banner_button {
+        width: 100%;
+    }
+
+    .payment_button,
+    .mv_item a {
+        width: 50%;
+        align-self: center;
+    }
+
+    .main_payments {
+        @extend .padding_20;
+
+        h2 {
+            font-size: 35px;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        &>div {
+            padding: 25px;
+        }
+    }
+
+    .main_mision_vision {
+        @extend .padding_20;
+
+        &>div {
+            flex-direction: column;
+        }
+    }
+
+    .main_reserva,
+    .main_services,
+    .main_location,
+    .main_form {
+        @extend .padding_20;
+    }
+
+    .main_form {
+        margin-bottom: 40px;
+    }
+
+    .payment_items {
+        gap: 20px;
+
+        h4 {
+            text-wrap: wrap;
+            word-break: break-all;
+        }
+    }
+
+    .mv_item h2 {
+        font-size: 45px;
+    }
+
+    .main_help {
+        flex-direction: unset;
+        align-items: unset;
+        justify-content: flex-end;
+        padding: 30px 20px;
+        min-height: unset;
+
+        &>div {
+            padding: 30px;
+        }
+
+        h2 {
+            font-size: 25px;
+            text-align: center;
+        }
+    }
+
+    .main_ads,
+    .main_cards {
+        @extend .padding_20;
+    }
+
+    .main_services_title {
+        text-align: center;
+        font-size: 2rem;
+
+    }
+
+    .main_adoption {
+        flex-direction: column;
+        gap: 25px;
+        @extend .padding_20;
+
+        &>div {
+            width: 100%;
+        }
+    }
+
+    .main_adoption_title {
+        line-height: 40px;
+    }
+
+    .main_cards_cats {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .main_requirements,
+    .main_volunteers,
+    .main_programs {
+        @extend .padding_20;
+    }
+
+    .main_requirements_list {
+        margin-top: 330px;
+        width: unset;
+        padding: 40px;
+        margin-bottom: 40px;
+    }
+
+    .main_requirements_img {
+        top: 40px;
+    }
+
+    .main_volunteers_list {
+        padding: 30px 50px;
+        width: 100%;
+    }
+
+    .btn_volunteer_form {
+        margin-bottom: 20px;
+    }
+
+    footer {
+        @extend .padding_20;
+        font-size: 14px;
+    }
+
+    .footer_pages {
+        display: none;
+    }
+
+    .footer_contact {
+        @include footer_width();
+
+        a {
+            width: 30px;
+            height: 30px;
+            min-width: 30px;
+        }
+    }
+
+    .footer_sm {
+        @include footer_width();
+        text-align: center;
+
+        .sm_images a img {
+            width: 38px;
+        }
+    }
+
+    .contact_item p {
+        max-width: 130px;
+    }
+}

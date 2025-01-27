@@ -1,0 +1,69 @@
+@import "../main";
+
+.main_banner_bg_catFeteria {
+    @include banner("../images/banner_catFeteria.webp");
+}
+
+.button_secondary {
+    opacity: 0.5;
+    border: 2px solid $accent600;
+}
+
+.main_reserva {
+    @include common_contanier();
+}
+
+.main_reserva_img {
+    width: 400px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.main_reserva_info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.main_reserva_ad {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main_reserva_address {
+    font-weight: 500;
+}
+
+.main_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    h2 {
+        color: $accent500;
+        text-align: center;
+    }
+}
+
+.main_services {
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.main_services_title {
+    text-align: center;
+    font-size: 3rem;
+}
+
+#carousel_serveces {
+    max-width: 400px;
+}
+
+.container_carousel {
+    display: flex;
+    justify-content: center;
+}
