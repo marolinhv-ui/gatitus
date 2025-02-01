@@ -1,0 +1,47 @@
+@import "../main";
+
+.coming_soon {
+    @extend .common_padding;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    gap: 40px;
+}
+
+.coming_soon_messages {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+
+    &>* {
+        width: 100%;
+    }
+
+
+    &>img {
+        width: 300px;
+        object-fit: contain;
+    }
+
+    &>div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+
+        h1 {
+            font-size: 50px;
+        }
+
+        p {
+            font-size: 25px;
+        }
+    }
+
+    a {
+        width: 200px !important;
+        margin-top: 1rem;
+    }
+}

@@ -141,7 +141,8 @@
 
     .main_requirements,
     .main_volunteers,
-    .main_programs {
+    .main_programs,
+    .coming_soon {
         @extend .padding_20;
     }
 
@@ -195,5 +196,27 @@
 
     .contact_item p {
         max-width: 130px;
+    }
+
+    .coming_soon_messages {
+        flex-direction: column;
+        align-items: center;
+
+        &>div {
+            align-items: center;
+
+            p {
+                text-align: center;
+                font-size: 20px;
+            }
+
+            h1 {
+                font-size: 40px;
+            }
+        }
+
+        &>img {
+            width: 250px;
+        }
     }
 }

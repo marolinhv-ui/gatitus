@@ -100,6 +100,27 @@
         align-items: center;
     }
 
+    .coming_soon_messages {
+        &>div {
+
+            p {
+                font-size: 16px;
+            }
+
+            h1 {
+                font-size: 25px;
+            }
+        }
+
+        &>img {
+            width: 200px;
+        }
+
+        a {
+            width: 100% !important;
+        }
+    }
+
 
 }
 
